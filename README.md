@@ -17,7 +17,7 @@ Breast cancer is a significant global health issue, and early detection is cruci
 
 ## Dataset
 
-The dataset used for training and evaluation is [mention_dataset_name], a comprehensive collection of breast cancer images with corresponding labels. This dataset ensures a diverse and representative set of cases for robust deep learning model training.
+The dataset used for training and evaluation is [Diagnostic Wisconsin Breast Cancer Database], a comprehensive collection of breast cancer images with corresponding labels. This dataset ensures a diverse and representative set of cases for robust deep learning model training.
 
 ## Deep Learning Models
 
