@@ -1,6 +1,6 @@
 # AI4BCancer: Breast Cancer Classification 🩺
 
-Welcome to AI4BCancer, a repository dedicated to leveraging deep learning techniques for the classification of breast cancer. This project aims to provide advanced and accurate models to assist in the diagnosis and early detection of breast cancer using state-of-the-art deep learning architectures.
+Welcome to AI4BCancer, a dedicated repository focusing on leveraging deep learning techniques for the classification of breast cancer. This project aims to provide advanced and accurate models to assist in the diagnosis and early detection of breast cancer using state-of-the-art deep learning architectures.
 
 ## Table of Contents 📚
 
@@ -17,11 +17,59 @@ Breast cancer is a significant global health issue, and early detection is cruci
 
 ## Dataset 📊
 
-The dataset used for training and evaluation is the [Diagnostic Wisconsin Breast Cancer Database], a comprehensive collection of breast cancer images with corresponding labels. This dataset ensures a diverse and representative set of cases for robust deep learning model training.
+The dataset used for training and evaluation is the [Diagnostic Wisconsin Breast Cancer Database](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), a comprehensive collection of breast cancer images with corresponding labels. This dataset ensures a diverse and representative set of cases for robust deep learning model training.
 
 ## Deep Learning Models 🧠
 
-Our repository specializes in various deep learning models, each designed to excel in breast cancer classification. These models include convolutional neural networks (CNNs), recurrent neural networks (RNNs), and other state-of-the-art architectures. Detailed information on model architectures and performance metrics can be found in the respective model directories.
+Our repository specializes in various deep learning models, each meticulously crafted for optimal performance in breast cancer classification. These models cover a spectrum of advanced techniques, including:
+
+- **AutoML Model**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/AutoML%20Model](AutoML_Model)
+
+
+- **CatBoost**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/CatBoost](CatBoost)
+
+
+- **Decision Tree**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Decision%20Tree](Decision_Tree)
+
+
+- **Ensemble Method**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Ensemble%20Method](Ensemble_Method)
+
+
+- **Gradient Boosting**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Gradient%20Boosting](Gradient_Boosting)
+
+
+- **KNN**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/KNN](KNN)
+
+
+- **LightGBM**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/LightGBM](LightGBM)
+
+
+- **Logistic Regression**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Logistic%20Regression](Logistic_Regression)
+
+
+- **Naive Bayes**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Naive%20Bayes](Naive_Bayes)
+
+
+- **Neural Network**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Neural%20Network](Neural_Network)
+
+
+- **Random Forest**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Random%20Forest](Random_Forest)
+
+
+- **SVM**
+  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/SVM](SVM)
+
 
 ## Usage 🚀
 
