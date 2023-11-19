@@ -23,6 +23,10 @@ The dataset used for training and evaluation is the [Diagnostic Wisconsin Breast
 
 Our repository specializes in various deep learning models, each meticulously crafted for optimal performance in breast cancer classification. These models cover a spectrum of advanced techniques, including:
 
+- **ANN**
+  - [ANN Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/ANN)
+  - [Brief description of AutoML Model]
+    
 - **AutoML Model**
   - [AutoML Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/AutoML%20Model)
   - [Brief description of AutoML Model]
