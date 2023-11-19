@@ -19,8 +19,6 @@ Breast cancer is a significant global health issue, and early detection is cruci
 
 The dataset used for training and evaluation is the [Diagnostic Wisconsin Breast Cancer Database](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), a comprehensive collection of breast cancer images with corresponding labels. This dataset ensures a diverse and representative set of cases for robust deep learning model training.
 
-Certainly! Here's an updated section with bullet points and references:
-
 ## Deep Learning Models 🧠
 
 Our repository specializes in various deep learning models, each meticulously crafted for optimal performance in breast cancer classification. These models cover a spectrum of advanced techniques, including:
