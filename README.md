@@ -19,57 +19,61 @@ Breast cancer is a significant global health issue, and early detection is cruci
 
 The dataset used for training and evaluation is the [Diagnostic Wisconsin Breast Cancer Database](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), a comprehensive collection of breast cancer images with corresponding labels. This dataset ensures a diverse and representative set of cases for robust deep learning model training.
 
+Certainly! Here's an updated section with bullet points and references:
+
 ## Deep Learning Models 🧠
 
 Our repository specializes in various deep learning models, each meticulously crafted for optimal performance in breast cancer classification. These models cover a spectrum of advanced techniques, including:
 
 - **AutoML Model**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/AutoML%20Model](AutoML_Model)
-
+  - [AutoML Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/AutoML%20Model)
+  - [Brief description of AutoML Model]
 
 - **CatBoost**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/CatBoost](CatBoost)
-
+  - [CatBoost Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/CatBoost)
+  - [Brief description of CatBoost Model]
 
 - **Decision Tree**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Decision%20Tree](Decision_Tree)
-
+  - [Decision Tree Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Decision%20Tree)
+  - [Brief description of Decision Tree Model]
 
 - **Ensemble Method**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Ensemble%20Method](Ensemble_Method)
-
+  - [Ensemble Method Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Ensemble%20Method)
+  - [Brief description of Ensemble Method Model]
 
 - **Gradient Boosting**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Gradient%20Boosting](Gradient_Boosting)
-
+  - [Gradient Boosting Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Gradient%20Boosting)
+  - [Brief description of Gradient Boosting Model]
 
 - **KNN**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/KNN](KNN)
-
+  - [KNN Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/KNN)
+  - [Brief description of KNN Model]
 
 - **LightGBM**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/LightGBM](LightGBM)
-
+  - [LightGBM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/LightGBM)
+  - [Brief description of LightGBM Model]
 
 - **Logistic Regression**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Logistic%20Regression](Logistic_Regression)
-
+  - [Logistic Regression Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Logistic%20Regression)
+  - [Brief description of Logistic Regression Model]
 
 - **Naive Bayes**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Naive%20Bayes](Naive_Bayes)
-
+  - [Naive Bayes Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Naive%20Bayes)
+  - [Brief description of Naive Bayes Model]
 
 - **Neural Network**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Neural%20Network](Neural_Network)
-
+  - [Neural Network Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Neural%20Network)
+  - [Brief description of Neural Network Model]
 
 - **Random Forest**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/Random%20Forest](Random_Forest)
-
+  - [Random Forest Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Random%20Forest)
+  - [Brief description of Random Forest Model]
 
 - **SVM**
-  - [https://github.com/footcricket05/BCancerAI/tree/main/Models/SVM](SVM)
+  - [SVM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/SVM)
+  - [Brief description of SVM Model]
 
+Please note that these models are trained and evaluated on the [Diagnostic Wisconsin Breast Cancer Database](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), a comprehensive collection of breast cancer images with corresponding labels.
 
 ## Usage 🚀
 
