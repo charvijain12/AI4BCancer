@@ -43,11 +43,11 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
 - **Ensemble Method**
   - [Ensemble Method Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Ensemble%20Method)
   - [Brief description of Ensemble Method Model]
-  - 
+  
 - **GMM**
   - [GMM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/GMM%20Model)
   - [Brief description of GMM Model]
-  - 
+  
 - **Gradient Boosting**
   - [Gradient Boosting Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Gradient%20Boosting)
   - [Brief description of Gradient Boosting Model]
