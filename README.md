@@ -4,12 +4,13 @@ Welcome to AI4BCancer, a dedicated repository focusing on leveraging deep learni
 
 ## Table of Contents 📚
 
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Deep Learning Models](#deep-learning-models)
+- [Introduction](#Introduction)
+- [Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+- [Deep Learning Models](https://github.com/footcricket05/BCancerAI/tree/main/Models)
+  - [Models with PCA](https://github.com/footcricket05/BCancerAI/tree/main/Models/Models%20with%20PCA)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributing](https://github.com/footcricket05/BCancerAI/blob/main/CONTRIBUTING.md)
+- [License](https://github.com/footcricket05/BCancerAI/blob/main/LICENSE)
 
 ## Introduction 🌟
 
@@ -19,12 +20,12 @@ Breast cancer is a significant global health issue, and early detection is cruci
 
 The dataset used for training and evaluation is the [Diagnostic Wisconsin Breast Cancer Database](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), a comprehensive collection of breast cancer images with corresponding labels. This dataset ensures a diverse and representative set of cases for robust deep learning model training.
 
-## Deep Learning Models 🧠
+## AI/ML Models 🧠
 
-Our repository specializes in various deep learning models, each meticulously crafted for optimal performance in breast cancer classification. These models cover a spectrum of advanced techniques, including:
+Our repository specializes in various AI/ML models, each meticulously crafted for optimal performance in breast cancer classification. These models cover a spectrum of advanced techniques, including:
 
 - **ANN**
-  - [ANN Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/ANN)
+  - [ANN Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/ANN)
   - [Brief description of AutoML Model]
     
 - **AutoML Model**
@@ -42,10 +43,18 @@ Our repository specializes in various deep learning models, each meticulously cr
 - **Ensemble Method**
   - [Ensemble Method Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Ensemble%20Method)
   - [Brief description of Ensemble Method Model]
-
+  - 
+- **GMM**
+  - [GMM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/GMM%20Model)
+  - [Brief description of GMM Model]
+  - 
 - **Gradient Boosting**
   - [Gradient Boosting Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Gradient%20Boosting)
   - [Brief description of Gradient Boosting Model]
+
+- **K-Means Clustering**
+  - [K-Means Clustering Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/K-Means%20Clustering)
+  - [Brief description of K-Means Clustering]
 
 - **KNN**
   - [KNN Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/KNN)
@@ -74,6 +83,10 @@ Our repository specializes in various deep learning models, each meticulously cr
 - **SVM**
   - [SVM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/SVM)
   - [Brief description of SVM Model]
+
+- **Models with Principal Component Analysis (PCA)**
+  - [Models with PCA Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Models%20with%20PCA)
+  - [Brief description of Models with PCA]
 
 Please note that these models are trained and evaluated on the [Diagnostic Wisconsin Breast Cancer Database](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), a comprehensive collection of breast cancer images with corresponding labels.
 
