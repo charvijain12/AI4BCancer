@@ -4,7 +4,7 @@ Welcome to AI4BCancer, a dedicated repository focusing on leveraging deep learni
 
 ## Table of Contents 📚
 
-- [Introduction](#introduction)
+- [Introduction](#Introduction)
 - [Dataset](#dataset)
 - [Deep Learning Models](#deep-learning-models)
   - [Models with PCA](#models-with-pca)
