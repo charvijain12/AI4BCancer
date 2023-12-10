@@ -24,7 +24,7 @@ The dataset used for training and evaluation is the [Diagnostic Wisconsin Breast
 Our repository specializes in various deep learning models, each meticulously crafted for optimal performance in breast cancer classification. These models cover a spectrum of advanced techniques, including:
 
 - **ANN**
-  - [ANN Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/ANN)
+  - [ANN Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/ANN)
   - [Brief description of AutoML Model]
     
 - **AutoML Model**
@@ -42,10 +42,18 @@ Our repository specializes in various deep learning models, each meticulously cr
 - **Ensemble Method**
   - [Ensemble Method Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Ensemble%20Method)
   - [Brief description of Ensemble Method Model]
-
+  - 
+- **GMM**
+  - [GMM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/GMM%20Model)
+  - [Brief description of GMM Model]
+  - 
 - **Gradient Boosting**
   - [Gradient Boosting Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Gradient%20Boosting)
   - [Brief description of Gradient Boosting Model]
+
+- **K-Means Clustering**
+  - [K-Means Clustering Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/K-Means%20Clustering)
+  - [Brief description of K-Means Clustering]
 
 - **KNN**
   - [KNN Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/KNN)
@@ -74,6 +82,10 @@ Our repository specializes in various deep learning models, each meticulously cr
 - **SVM**
   - [SVM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/SVM)
   - [Brief description of SVM Model]
+
+- **AI/ML Models with Principal Component Analysis (PCA)**
+  - [Models with PCA Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Models%20with%20PCA)
+  - [Brief description of Models with PCA]
 
 Please note that these models are trained and evaluated on the [Diagnostic Wisconsin Breast Cancer Database](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), a comprehensive collection of breast cancer images with corresponding labels.
 
