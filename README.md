@@ -83,7 +83,7 @@ Our repository specializes in various deep learning models, each meticulously cr
   - [SVM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/SVM)
   - [Brief description of SVM Model]
 
-- **AI/ML Models with Principal Component Analysis (PCA)**
+- **Models with Principal Component Analysis (PCA)**
   - [Models with PCA Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Models%20with%20PCA)
   - [Brief description of Models with PCA]
 
