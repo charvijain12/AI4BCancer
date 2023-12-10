@@ -5,12 +5,12 @@ Welcome to AI4BCancer, a dedicated repository focusing on leveraging deep learni
 ## Table of Contents 📚
 
 - [Introduction](#Introduction)
-- [Dataset](#dataset)
-- [Deep Learning Models](#deep-learning-models)
-  - [Models with PCA](#models-with-pca)
+- [Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+- [Deep Learning Models](https://github.com/footcricket05/BCancerAI/tree/main/Models)
+  - [Models with PCA](https://github.com/footcricket05/BCancerAI/tree/main/Models/Models%20with%20PCA)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributing](https://github.com/footcricket05/BCancerAI/blob/main/CONTRIBUTING.md)
+- [License](https://github.com/footcricket05/BCancerAI/blob/main/LICENSE)
 
 ## Introduction 🌟
 
