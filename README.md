@@ -43,7 +43,7 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
 - **Convolution Neural Network**
   - [CNN Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/CNN)
   - Convolutional Neural Network (CNN) demonstrates high performance, achieving 94.74% accuracy in breast cancer classification, highlighting its proficiency in automated machine learning
-  - 
+    
 - **Categorical Boosting**
   - [CatBoost Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/CatBoost)
   - CatBoost, a gradient boosting algorithm, demonstrates high accuracy (97.37%) in breast cancer classification. Its ability to handle categorical features and robust training makes it a reliable choice.
