@@ -54,7 +54,7 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
 
 - **Ensemble Method**
   - [Ensemble Method Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Ensemble%20Method)
-  - The Ensemble Model combines the strengths of multiple base models, resulting in a high accuracy of 96.49%. This collaborative learning approach enhances overall predictive performance.
+  - The Ensemble Model combines the strengths of multiple base models, resulting in a high accuracy of 96.49% in breast cancer classification. This collaborative learning approach enhances overall predictive performance.
   
 - **Gaussian Mixture Model**
   - [GMM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/GMM%20Model)
