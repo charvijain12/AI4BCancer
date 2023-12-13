@@ -37,7 +37,7 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
   - The AutoML model showcases its efficiency by automatically selecting the best machine learning pipeline for breast cancer classification, resulting in an impressive accuracy of 98.25%.
 
 - **Bagging Classifier**
-  - [Bagging Classifier Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/Bagging%20Classifier)
+  - [Bagging Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/Bagging%20Classifier)
   - The Bagging Classifier demonstrates strong performance in breast cancer classification, achieving an accuracy of 95.61%, highlighting its efficacy and reliability in the task.
     
 - **Convolution Neural Network**
