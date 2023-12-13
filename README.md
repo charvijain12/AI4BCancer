@@ -32,6 +32,10 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
   - [AutoML Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/AutoML%20Model)
   - The AutoML model showcases its efficiency by automatically selecting the best machine learning pipeline for breast cancer classification, resulting in an impressive accuracy of 98.25%.
 
+- **CNN Model**
+  - [CNN Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/CNN)
+  - An efficient Convolutional Neural Network (CNN) model achieved a notable accuracy of 94.74% in classifying breast cancer, demonstrating its efficacy in automated machine learning pipelines.
+  
 - **CatBoost**
   - [CatBoost Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/CatBoost)
   - CatBoost, a gradient boosting algorithm, demonstrates high accuracy (97.37%) in breast cancer classification. Its ability to handle categorical features and robust training makes it a reliable choice.
