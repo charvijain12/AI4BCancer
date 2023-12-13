@@ -24,27 +24,27 @@ The dataset used for training and evaluation is the [Diagnostic Wisconsin Breast
 
 Our repository specializes in various AI/ML models, each meticulously crafted for optimal performance in breast cancer classification. These models cover a spectrum of advanced techniques, including:
 
-- **ANN**
+- **Artificial Neural Network**
   - [ANN Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/ANN)
   - The ANN model is a powerful deep learning architecture, achieving an outstanding accuracy of 99.12%. Its multi-layered structure enables it to learn complex patterns, making it a top-performer in breast cancer classification.
  
-- **AdaBoost Classifier Model**
-  - [AdaBoost Classifier Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/AdaBoost%20Classifier)
+- **Adaptive Boosting Classifier**
+  - [AdaBoost Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/AdaBoost%20Classifier)
   - The AdaBoost algorithm demonstrates remarkable proficiency, attaining an accuracy rate of 97.37% in accurately classifying breast cancer. This underscores its effectiveness and strong learning capability in the task.
     
-- **AutoML Model**
+- **AutoML (TPOT)**
   - [AutoML Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/AutoML%20Model)
   - The AutoML model showcases its efficiency by automatically selecting the best machine learning pipeline for breast cancer classification, resulting in an impressive accuracy of 98.25%.
 
-- **Bagging Classifier Model**
+- **Bagging Classifier**
   - [Bagging Classifier Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/Bagging%20Classifier)
   - The Bagging Classifier demonstrates strong performance in breast cancer classification, achieving an accuracy of 95.61%, highlighting its efficacy and reliability in the task.
     
-- **CNN Model**
+- **Convolution Neural Network**
   - [CNN Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/CNN)
   - An efficient Convolutional Neural Network (CNN) model achieved a notable accuracy of 94.74% in classifying breast cancer, demonstrating its efficacy in automated machine learning pipelines.
   
-- **CatBoost**
+- **Categorical Boosting**
   - [CatBoost Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/CatBoost)
   - CatBoost, a gradient boosting algorithm, demonstrates high accuracy (97.37%) in breast cancer classification. Its ability to handle categorical features and robust training makes it a reliable choice.
 
@@ -56,22 +56,23 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
   - [Ensemble Method Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Ensemble%20Method)
   - The Ensemble Model combines the strengths of multiple base models, resulting in a high accuracy of 96.49%. This collaborative learning approach enhances overall predictive performance.
   
-- **GMM**
+- **Gaussian Mixture Model**
   - [GMM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/GMM%20Model)
   - GMM exhibits a limited accuracy of 7.02%. While it may not be suitable for this breast cancer classification task, GMM is commonly used for density estimation and clustering in other scenarios.
   
-- **XGBoost**
+- **Extreme Gradient Boosting**
   - [XGBoost Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Gradient%20Boosting)
   - XGBoost, an optimized gradient boosting algorithm, attains an accuracy of 95.61%. Its regularization techniques and parallel computing make it effective in accurate breast cancer prediction.
 
 - **K-Means Clustering**
   - [K-Means Clustering Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/K-Means%20Clustering)
   - K-Means Clustering achieves an accuracy of 37.71% by grouping similar data points into clusters. While not well-suited for classification, K-Means is valuable for unsupervised learning tasks.
-- **KNN**
+  
+- **K-Nearest Neighbors**
   - [KNN Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/KNN)
   - KNN achieves an accuracy of 94.74% by classifying data points based on the majority class of their k-nearest neighbors. Its simplicity and intuitive concept make it a robust choice for breast cancer classification.
 
-- **LightGBM**
+- **Light Gradient-Boosting Machine**
   - [LightGBM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/LightGBM)
   - LightGBM, a gradient boosting framework, achieves an accuracy of 96.49%. Its high efficiency, distributed computing support, and handling of large datasets contribute to its success in breast cancer classification.
 
@@ -91,7 +92,7 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
   - [Random Forest Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Random%20Forest)
   - The Random Forest model achieves an accuracy of 96.49% by leveraging an ensemble of decision trees. Its robustness, scalability, and ability to handle complex relationships make it a reliable choice.
 
-- **SVM**
+- **Support Vector Machine**
   - [SVM Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/SVM)
   - SVM achieves an accuracy of 95.61% by finding an optimal hyperplane to separate different classes. Its effectiveness in high-dimensional spaces contributes to accurate breast cancer classification.
 
