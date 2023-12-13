@@ -27,6 +27,10 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
 - **ANN**
   - [ANN Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/ANN)
   - The ANN model is a powerful deep learning architecture, achieving an outstanding accuracy of 99.12%. Its multi-layered structure enables it to learn complex patterns, making it a top-performer in breast cancer classification.
+ 
+- **AdaBoost Classifier Model**
+  - [AdaBoost Classifier Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/AdaBoost%20Classifier)
+  - The AdaBoost algorithm demonstrates remarkable proficiency, attaining an accuracy rate of 97.37% in accurately classifying breast cancer. This underscores its effectiveness and strong learning capability in the task.
     
 - **AutoML Model**
   - [AutoML Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/AutoML%20Model)
