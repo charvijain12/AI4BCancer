@@ -30,19 +30,19 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
  
 - **Adaptive Boosting Classifier**
   - [AdaBoost Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/AdaBoost%20Classifier)
-  - The AdaBoost algorithm demonstrates remarkable proficiency, attaining an accuracy rate of 97.37% in accurately classifying breast cancer. This underscores its effectiveness and strong learning capability in the task.
+  - AdaBoost, a boosting algorithm, achieves an accuracy of 97.37% in breast cancer classification, showcasing its powerful ensemble learning.
     
 - **AutoML (TPOT)**
   - [AutoML Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/AutoML%20Model)
-  - The AutoML model showcases its efficiency by automatically selecting the best machine learning pipeline for breast cancer classification, resulting in an impressive accuracy of 98.25%.
+  - AutoML autonomously identifies the optimal machine learning pipeline, achieving an impressive 98.25% accuracy in breast cancer classification, highlighting its efficient selection process.
 
 - **Bagging Classifier**
   - [Bagging Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/Bagging%20Classifier)
-  - The Bagging Classifier demonstrates strong performance in breast cancer classification, achieving an accuracy of 95.61%, highlighting its efficacy and reliability in the task.
+  - Bagging combines diverse model predictions from random data subsets, delivering a robust accuracy of 95.61% in breast cancer classification.
     
 - **Convolution Neural Network**
   - [CNN Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/CNN)
-  - An efficient Convolutional Neural Network (CNN) model achieved a notable accuracy of 94.74% in classifying breast cancer, demonstrating its efficacy in automated machine learning pipelines.
+  - Convolutional Neural Network (CNN) excels in visual data analysis, achieving 94.74% accuracy in breast cancer classification, showcasing its prowess in automated machine learning.
   
 - **Categorical Boosting**
   - [CatBoost Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/CatBoost)
@@ -62,11 +62,11 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
   
 - **Extreme Gradient Boosting**
   - [XGBoost Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Gradient%20Boosting)
-  - XGBoost, an optimized gradient boosting algorithm, attains an accuracy of 95.61%. Its regularization techniques and parallel computing make it effective in accurate breast cancer prediction.
+  - XGBoost, an optimized gradient boosting method, achieves 95.61% accuracy in breast cancer classification due to its effective regularization and parallel computing techniques.
 
 - **K-Means Clustering**
   - [K-Means Clustering Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/K-Means%20Clustering)
-  - K-Means Clustering achieves an accuracy of 37.71% by grouping similar data points into clusters. While not well-suited for classification, K-Means is valuable for unsupervised learning tasks.
+  - K-Means Clustering achieves an accuracy of 37.71% by grouping similar data points into clusters. While not well-suited for breast cancer classification, K-Means is valuable for unsupervised learning tasks.
   
 - **K-Nearest Neighbors**
   - [KNN Model Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/KNN)
