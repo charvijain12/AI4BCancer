@@ -7,7 +7,8 @@ Welcome to AI4BCancer, a dedicated repository focusing on leveraging deep learni
 - [Introduction](#Introduction)
 - [Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 - [Deep Learning Models](https://github.com/footcricket05/BCancerAI/tree/main/Models)
-  - [Models with PCA](https://github.com/footcricket05/BCancerAI/tree/main/Models/Models%20with%20PCA)
+  - [Models with PCA](https://github.com/charvijain12/AI4BCancer/tree/main/Models%20with%20PCA)
+  - [Models with XAI](https://github.com/charvijain12/AI4BCancer/tree/main/Models%20with%20XAI)
 - [Usage](#usage)
 - [Contributing](https://github.com/footcricket05/BCancerAI/blob/main/CONTRIBUTING.md)
 - [License](https://github.com/footcricket05/BCancerAI/blob/main/LICENSE)
@@ -97,8 +98,12 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
   - SVM achieves an accuracy of 95.61% by finding an optimal hyperplane to separate different classes. Its effectiveness in high-dimensional spaces contributes to accurate breast cancer classification.
 
 - **Models with Principal Component Analysis (PCA)**
-  - [Models with PCA Directory](https://github.com/footcricket05/BCancerAI/tree/main/Models/Models%20with%20PCA)
+  - [Models with PCA Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models%20with%20PCA)
   - This directory contains models that have been enhanced with Principal Component Analysis (PCA), a dimensionality reduction technique. PCA is applied to the input features before training the models, allowing for more efficient training and potentially improved performance. The reduced dimensionality helps the models focus on the most relevant information, making them valuable tools for breast cancer classification. Explore the directory to access these PCA-enhanced models and leverage their capabilities for accurate and efficient breast cancer diagnosis.
+
+- **Models with Explainable Artificial Intelligence (XAI)**
+  - [Models with XAI Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models%20with%20XAI)
+  - This directory contains models that have been enhanced with Explainable Artificial Intelligence (XAI), ......
 
 Please note that these models are trained and evaluated on the [Diagnostic Wisconsin Breast Cancer Database](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), a comprehensive collection of breast cancer images with corresponding labels.
 
