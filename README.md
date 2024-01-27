@@ -104,9 +104,9 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
 - **Models with Explainable Artificial Intelligence (XAI)**
   - [Models with XAI Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models%20with%20XAI)
   - This directory contains models that have been enhanced with Explainable Artificial Intelligence (XAI), Explainability is crucial in medical applications to ensure that deep learning models provide interpretable and trustworthy results. The following models in our repository have been enhanced with Explainable Artificial Intelligence (XAI) techniques to provide insights into the decision-making process:
-      1. LIME (Local Interpretable Model-agnostic Explanations):
+      1. **LIME (Local Interpretable Model-agnostic Explanations):**
            LIME generates local surrogate models around specific instances, providing interpretable explanations for individual predictions. By understanding the decision boundaries in the local region, LIME enhances the transparency of the model's predictions.
-      2. SHAP (SHapley Additive exPlanations):
+      2. **SHAP (SHapley Additive exPlanations):**
          SHAP   values assign each feature's contribution to a prediction, offering a global and individualized perspective on feature importance. By analyzing the impact of each feature on the model's output, SHAP enhances the understanding of the model's decision process.
 
 Please note that these models are trained and evaluated on the [Diagnostic Wisconsin Breast Cancer Database](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), a comprehensive collection of breast cancer images with corresponding labels.
