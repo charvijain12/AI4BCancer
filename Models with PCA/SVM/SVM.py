@@ -103,6 +103,124 @@ print(f"Accuracy: {accuracy:.4f}")
 print("Classification Report:\n", report)
 
 
+# In[13]:
+
+
+# Confusion Matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix
+import numpy as np
+
+conf_matrix = confusion_matrix(y_test, y_pred)
+
+plt.figure(figsize=(8, 6))
+sns.heatmap(conf_matrix, annot=True, fmt="d", cmap="Blues", cbar=False,
+            xticklabels=['Benign', 'Malignant'], yticklabels=['Benign', 'Malignant'])
+plt.xlabel('Predicted labels')
+plt.ylabel('True labels')
+plt.title('Confusion Matrix')
+plt.xticks(rotation=45)
+plt.yticks(rotation=0)
+
+# Add counts
+for i in range(len(conf_matrix)):
+    for j in range(len(conf_matrix[i])):
+        plt.text(j + 0.5, i + 0.5, str(conf_matrix[i][j]), ha='center', va='center', color='red')
+
+plt.show()
+
+
+# In[14]:
+
+
+# ROC Curve
+from sklearn.metrics import roc_curve, auc
+fpr, tpr, thresholds = roc_curve(y_test, y_pred)
+roc_auc = auc(fpr, tpr)
+
+plt.figure(figsize=(8, 6))
+plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = %0.2f)' % roc_auc)
+plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+plt.xlim([0.0, 1.0])
+plt.ylim([0.0, 1.05])
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('Receiver Operating Characteristic (ROC) Curve')
+plt.legend(loc="lower right")
+
+# Add ROC-AUC score to the plot
+plt.text(0.5, 0.3, 'ROC AUC = %0.2f' % roc_auc, ha='center', fontsize=12)
+plt.text(0.5, 0.2, 'Model Accuracy = %0.4f' % accuracy, ha='center', fontsize=12)
+
+plt.show()
+
+
+# In[15]:
+
+
+# Precision-Recall Curve
+from sklearn.metrics import precision_recall_curve, average_precision_score
+
+precision, recall, _ = precision_recall_curve(y_test, y_pred)
+average_precision = average_precision_score(y_test, y_pred)
+
+plt.figure(figsize=(10, 8))
+plt.step(recall, precision, color='b', alpha=0.2, where='post')
+plt.fill_between(recall, precision, step='post', alpha=0.2, color='b')
+plt.xlabel('Recall')
+plt.ylabel('Precision')
+plt.ylim([0.0, 1.05])
+plt.xlim([0.0, 1.0])
+plt.title('2-class Precision-Recall curve: AP={0:0.2f}'.format(average_precision))
+plt.show()
+
+
+# In[16]:
+
+
+# Distribution of Predictions
+plt.figure(figsize=(8, 6))
+sns.histplot(y_pred, kde=False, bins=2)
+plt.xlabel('Predicted Diagnosis')
+plt.ylabel('Count')
+plt.title('Distribution of Predicted Diagnoses')
+plt.xticks(ticks=[0.25, 0.75], labels=['Benign', 'Malignant'])
+plt.show()
+
+
+# In[18]:
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.model_selection import learning_curve
+
+# Plot learning curve
+def plot_learning_curve(estimator, X, y, model_name):
+    train_sizes, train_scores, test_scores = learning_curve(estimator, X, y, cv=5, scoring='accuracy', n_jobs=-1, train_sizes=np.linspace(0.1, 1.0, 10))
+    train_mean = np.mean(train_scores, axis=1)
+    train_std = np.std(train_scores, axis=1)
+    test_mean = np.mean(test_scores, axis=1)
+    test_std = np.std(test_scores, axis=1)
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(train_sizes, train_mean, color='blue', marker='o', markersize=5, label='Training accuracy')
+    plt.fill_between(train_sizes, train_mean + train_std, train_mean - train_std, alpha=0.15, color='blue')
+    plt.plot(train_sizes, test_mean, color='green', linestyle='--', marker='s', markersize=5, label='Validation accuracy')
+    plt.fill_between(train_sizes, test_mean + test_std, test_mean - test_std, alpha=0.15, color='green')
+    plt.title(f'{model_name} - Learning Curve')
+    plt.xlabel('Number of training samples')
+    plt.ylabel('Accuracy')
+    plt.legend(loc='lower right')
+    plt.ylim([0.9, 1.01])
+    plt.grid()
+    plt.show()
+
+# Plot learning curve
+plot_learning_curve(svm_model, X_train_pca, y_train, 'SVM')
+
+
 # In[ ]:
 
 
