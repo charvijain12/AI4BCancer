@@ -6,7 +6,8 @@ Welcome to AI4BCancer, a dedicated repository focusing on leveraging deep learni
 
 - [Introduction](#Introduction)
 - [Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
-- [Deep Learning Models](https://github.com/footcricket05/BCancerAI/tree/main/Models)
+- [AI/ML Models](https://github.com/footcricket05/BCancerAI/tree/main/Models)
+  - [Models](https://github.com/charvijain12/AI4BCancer/tree/main/Models)
   - [Models with PCA](https://github.com/charvijain12/AI4BCancer/tree/main/Models%20with%20PCA)
   - [Models with XAI](https://github.com/charvijain12/AI4BCancer/tree/main/Models%20with%20XAI)
 - [Usage](#usage)
