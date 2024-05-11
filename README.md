@@ -103,16 +103,20 @@ Our repository specializes in various AI/ML models, each meticulously crafted fo
   - OnlineML, a dynamic learning algorithm suitable for streaming data, achieves an accuracy of 62.28% in breast cancer classification, demonstrating its efficacy in handling continuous data streams and maintaining competitive performance.
 
 - **MobileNetv2 Classifier**
-  - [MobileNetv2 Model Directory](https://github.com/exampleuser/MobileNetv2_BreastCancer)
+  - [MobileNetv2 Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/MobileNetV2)
   - MobileNetv2, a lightweight convolutional neural network architecture designed for mobile and embedded vision applications, achieves an accuracy of 62.28% in breast cancer classification. Its efficient design makes it suitable for deployment on resource-constrained devices without compromising performance significantly.
 
 - **DenseNet121 Classifier**
-  - [DenseNet121 Model Directory](https://github.com/exampleuser/DenseNet121_BreastCancer)
+  - [DenseNet121 Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/DenseNet121)
   - DenseNet121, a densely connected convolutional neural network architecture, achieves an accuracy of 95.61% in breast cancer classification. Its dense connectivity pattern allows for feature reuse, leading to efficient parameter usage and effective learning.
 
 - **EfficientNetB0 Classifier**
-  - [EfficientNetB0 Model Directory](https://github.com/exampleuser/EfficientNetB0_BreastCancer)
+  - [EfficientNetB0 Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/EfficientNetB0)
   - EfficientNetB0, a convolutional neural network architecture known for its efficiency and effectiveness, achieves an accuracy of 96.41% in breast cancer classification. Its compound scaling method balances model depth, width, and resolution to achieve superior performance with fewer parameters.
+
+- **Generative Adversarial Network (GAN) Classifier**
+  - [GAN Model Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models/GAN)
+  - The GAN model, leveraging adversarial training principles, achieves an accuracy of 53.51% in breast cancer classification. Despite primarily being used for data generation, this GAN-based classifier showcases its potential to learn meaningful representations from data distributions, contributing to competitive classification performance.
 
 - **Models with Principal Component Analysis (PCA)**
   - [Models with PCA Directory](https://github.com/charvijain12/AI4BCancer/tree/main/Models%20with%20PCA)
