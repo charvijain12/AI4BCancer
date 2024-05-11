@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
-# Import necessary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -13,96 +12,61 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from tpot import TPOTClassifier
 from sklearn.metrics import classification_report, accuracy_score
-from xgboost import XGBClassifier
-
-
-# In[2]:
-
+from sklearn.utils import resample
 
 # Load the Wisconsin Breast Cancer dataset
 file_path = r"C:\Users\Shaurya\Downloads\data.csv"
 df = pd.read_csv(file_path)
 
-
-# In[3]:
-
-
 # Drop unnecessary columns
 df = df.drop(columns=['id', 'Unnamed: 32'])
-
-
-# In[4]:
-
 
 # Encode the 'diagnosis' column (M=1, B=0)
 from sklearn.preprocessing import LabelEncoder
 label_encoder = LabelEncoder()
 df['diagnosis'] = label_encoder.fit_transform(df['diagnosis'])
 
-
-# In[5]:
-
-
 # Handle missing values by dropping rows with null values
 df = df.dropna()
 
+# Separate majority and minority classes
+majority_class = df[df['diagnosis'] == 0]
+minority_class = df[df['diagnosis'] == 1]
 
-# In[6]:
+# Upsample minority class to balance the dataset
+minority_upsampled = resample(minority_class,
+                              replace=True,     # sample with replacement
+                              n_samples=len(majority_class),    # to match majority class
+                              random_state=42) # reproducible results
 
+# Combine majority class with upsampled minority class
+balanced_df = pd.concat([majority_class, minority_upsampled])
 
-# Split the dataset into features (X) and target variable (y)
-X = df.drop(columns=['diagnosis'])
-y = df['diagnosis']
-
-
-# In[7]:
-
+# Split the balanced dataset into features (X) and target variable (y)
+X = balanced_df.drop(columns=['diagnosis'])
+y = balanced_df['diagnosis']
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-
-# In[8]:
-
 
 # Standardize the features using StandardScaler
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-
-# In[9]:
-
-
 # Apply PCA
 pca = PCA(n_components=10)  # You can adjust the number of components
 X_train_pca = pca.fit_transform(X_train_scaled)
 X_test_pca = pca.transform(X_test_scaled)
 
-
-# In[10]:
-
-
 # Instantiate TPOTClassifier
 tpot_classifier = TPOTClassifier(generations=5, population_size=20, verbosity=2, random_state=42, config_dict='TPOT sparse')
-
-
-# In[11]:
-
 
 # Fit the model
 tpot_classifier.fit(X_train_pca, y_train)
 
-
-# In[12]:
-
-
 # Make predictions on the test set
 y_pred = tpot_classifier.predict(X_test_pca)
-
-
-# In[13]:
-
 
 # Evaluate the model
 accuracy = accuracy_score(y_test, y_pred)
@@ -111,20 +75,40 @@ report = classification_report(y_test, y_pred)
 print(f"Accuracy: {accuracy:.4f}")
 print("Classification Report:\n", report)
 
-
-# In[14]:
-
-
 # Export the pipeline
 tpot_classifier.export('tpot_breast_cancer_pipeline_with_pca.py')
 
 
-# In[19]:
+# In[13]:
+
+
+# Visualize class distribution before and after augmentation
+plt.figure(figsize=(10, 6))
+plt.subplot(1, 2, 1)
+sns.countplot(x='diagnosis', data=df)
+plt.title('Class Distribution Before Augmentation')
+
+plt.tight_layout()
+plt.show()
+
+
+# In[14]:
+
+
+# Visualize class distribution before and after augmentation
+plt.figure(figsize=(10, 6))
+plt.subplot(1, 2, 2)
+sns.countplot(x='diagnosis', data=balanced_df)
+plt.title('Class Distribution After Augmentation')
+plt.tight_layout()
+plt.show()
+
+
+# In[15]:
 
 
 # Confusion Matrix
 from sklearn.metrics import confusion_matrix
-import numpy as np
 
 conf_matrix = confusion_matrix(y_test, y_pred)
 
@@ -145,11 +129,12 @@ for i in range(len(conf_matrix)):
 plt.show()
 
 
-# In[20]:
+# In[17]:
 
 
 # ROC Curve
 from sklearn.metrics import roc_curve, auc
+
 fpr, tpr, thresholds = roc_curve(y_test, y_pred)
 roc_auc = auc(fpr, tpr)
 
@@ -170,7 +155,7 @@ plt.text(0.5, 0.2, 'Model Accuracy = %0.4f' % accuracy, ha='center', fontsize=12
 plt.show()
 
 
-# In[23]:
+# In[20]:
 
 
 # Feature Importance
@@ -187,7 +172,7 @@ plt.title('Feature Importance')
 plt.show()
 
 
-# In[24]:
+# In[21]:
 
 
 # Precision-Recall Curve
@@ -207,7 +192,7 @@ plt.title('2-class Precision-Recall curve: AP={0:0.2f}'.format(average_precision
 plt.show()
 
 
-# In[25]:
+# In[22]:
 
 
 # Distribution of Predictions
@@ -224,6 +209,7 @@ plt.show()
 
 
 # Learning Curve
+import numpy as np
 from sklearn.model_selection import learning_curve
 
 train_sizes, train_scores, test_scores = learning_curve(tpot_classifier.fitted_pipeline_, X_train_pca, y_train, cv=5)
